@@ -1,0 +1,33 @@
+<script type="text/javascript">
+    
+    function solution(s) {
+    var answer = '';
+    var string_length=0;
+    var start_order=0;
+        
+        if(s.length%2===0){
+            string_length=2;
+            start_order=(s.length)%2;
+        }
+        else{
+            string_length=1;
+            start_order=((s.length%2)+1);
+        }
+    
+    if(string_length===2){
+        answer=s[start_order-1]+s[start_order];
+    }
+    else{
+        answer=s[start_order-1];                
+    }
+    
+    
+    return answer;
+}
+    input_Str="abcde";
+    console.log((input_Str.length/2))
+    
+    console.log(solution(input_Str));
+
+    </script>
+
