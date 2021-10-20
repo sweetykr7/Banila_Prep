@@ -1,0 +1,27 @@
+<script type="text/javascript">
+    console.log("hello, vanilla.");
+
+    // function foo () {  var a = 5;  for (var i = 0; i < a; i++) {    console.log(a);  }  console.log(i);  // 무엇이 출력될까요?
+    //     }foo();
+
+    
+    //     var a = 1;function bar () {  function foo() {    console.log(a);  // ?  
+    //     }  foo();
+    // }bar();
+
+    // var a = 1;function bar () {  function foo() {    console.log(a);  // ?  
+    // }    a = 2;  foo();
+    // }bar();
+
+    // function foo() {  var a = 1;  function bar () {    a = 2;  }  console.log(a); // ?  
+    // bar();}foo();
+
+    var x = 1;   
+    function foo () {     
+        if (x > 1) {         
+            var x = 2;     }       
+            console.log(x); }   
+            
+    foo();
+
+    </script>
