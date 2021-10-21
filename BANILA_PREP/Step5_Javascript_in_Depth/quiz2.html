@@ -1,0 +1,22 @@
+<script type="text/javascript">
+    console.log("hello, vanilla.");
+
+    //그자체로 들어가나보다
+    //const person = {  age: 30};const something = person.age;person.age = 50;console.log(something)
+
+    //똑같은 것을 하나 복사한 것처럼 됐다.
+    //let one = { name: "one" };const two = { name: "two" };const something = one;one = { name: "ONE" };console.log(something);
+
+    //오잉 위에꺼보다 이게 더 쉬운 느낌
+    //let one = 1;const two = 2;const something = one;one = 101;console.log(something);
+
+    //아래는 당연히 다를 것 같다. ken은 ref변수에 dic형태로 있고, people[0]을 하면 string형태로 들어감
+    let ken = {  name: "ken",  age: 30};
+    const wan = {  name: "wan",  age: 35};
+    const people = [ ken, wan ];
+    ken = {  name: "KEN",  age: 38};
+
+    console.log(people);  // ?
+    console.log(ken === people[0]);
+
+    </script>
