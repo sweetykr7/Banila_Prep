@@ -1,0 +1,83 @@
+section{
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.btn{
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+
+.inputText{
+  font-size: 30px;
+  text-align: center;
+}
+
+.start{
+  width: 150px;
+  height: auto;
+}
+
+.result{
+  font-size: 20px;
+  position: absolute;
+  top: 80px;
+  right: 100px;
+  width: 200px;
+  height: 100px;
+  
+}
+
+.btm-text{
+  text-align: center;
+  font-size: 15px;
+}
+
+/* body {
+  
+  background-image: url("./images/bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Varela Round", sans-serif;
+} */
+
+/* h1 {
+  font-family: "Pacifico", cursive;
+  text-align: center;
+  font-size: 30px;
+}
+.vanila-box, .carousel-main, .dot-area{
+  text-align: center;  
+}
+.vanila-box-image{
+  width: 300px;
+  height: auto;
+  object-fit: contain;
+}
+
+.Carousel-image{
+  width: auto;
+  height: 300px;
+  object-fit: contain;
+}
+
+.left{
+  width : 40px;
+  height: auto;
+  padding-bottom: 150px;
+  padding-right:200px;
+}
+
+.right{
+  width : 40px;
+  height: auto;
+  padding-bottom: 150px;
+  padding-left:200px;
+}
+
+.dot1,.dot2,.dot3,.dot4,.dot5{
+  width : 50px;
+  height: auto;
+} */
